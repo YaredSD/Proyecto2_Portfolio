@@ -24,13 +24,16 @@ export const changeText = () => {
 
 export const Navbar = () => `
 <nav>
-<h2>Yared Santana</h2>
+<h2>Portfolio Personal</h2>
 <ul>
     <li>
         <a href="#" id="homelink">Home</a>
     </li>
     <li>
         <a href="#" id="projectslink">Projectos</a>
+    </li>
+    <li>
+    <a href="#" id="Aboutlink">Sobre Mi</a>
     </li>
     <li>
         <button id="themeBtn">☀</button>

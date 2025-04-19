@@ -1,27 +1,30 @@
-.home {
+.AboutMe {
     padding: 0 8rem;
     height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    gap: 3rem;
+    gap: 2.5rem;
   }
   
   @media (max-width: 700px) {
-    .home {
-      padding: 0 2rem;
+    .AboutMe {
+      padding: 0 3rem;
     }
   }
   
-  .home > h1 {
+  .AboutMe > h1 {
     font-size: 5.5rem;
     background: linear-gradient(to right, #2ec962 0%, #1e41ca 50%, #1ac2c4 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-  
-  .home > a {
-    font-size: 1.5rem;
+
+  .AboutMe > p {
+    font-size: 1rem;
+    line-height: 1rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
   }
